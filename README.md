@@ -1,6 +1,6 @@
 # ts-router-to-controller
 
-《[从 JavaScript 到 TypeScript - express 路由进化]()》 文章 demo。
+《[从 JavaScript 到 TypeScript - express 路由进化](http://tasaid.com/Blog/20171011233051.html?sgs=github-demo)》 文章 demo。
 
 ![](https://github.com/linkFly6/ts-router-to-controller/blob/master/imgs/demo.png)
 
