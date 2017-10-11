@@ -2,7 +2,7 @@
 
 《[从 JavaScript 到 TypeScript - express 路由进化]()》 文章 demo。
 
-![](blob/master/imgs/demo.png)
+![](https://github.com/linkFly6/ts-router-to-controller/blob/master/imgs/demo.png)
 
 
 
