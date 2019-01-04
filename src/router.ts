@@ -2,6 +2,7 @@ import { Router } from 'express'
 
 import { symbolHttpMethodsKey, httpGet, httpPost } from './decorators/http-methods'
 import { path, symbolPathKey } from './decorators/path'
+import { required, validateEmptyStr } from './decorators/validate'
 
 class User {
   @httpPost
@@ -14,6 +15,18 @@ class User {
   @path('/user/exit')
   exit() {
     return 'user logout'
+  }
+
+  /**
+   * 属性装饰器演示
+   * @param v1 
+   */
+  @httpGet
+  @path('/validate')
+  @validateEmptyStr
+  valid(@required v1: string) {
+    console.log(v1)
+    return v1
   }
 }
 
